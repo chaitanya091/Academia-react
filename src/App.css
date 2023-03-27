@@ -6,6 +6,7 @@
 }
 body{
   font-family: 'Roboto', sans-serif;
+  background-color: #858484;
 }
 .container{
   max-width: 85%;
@@ -13,4 +14,30 @@ body{
 }
 .flexSB{
   display: flex;
+  justify-content: space-between;
+}
+.icon{
+  width: 40px;
+  height:40px;
+  line-height:40px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #1eb2a6;
+  transition: 0.5s;
+}
+.icon:hover{
+  cursor: pointer;
+  background-color:#1eb2a6;
+  color:aliceblue;
+}
+a{
+  text-decoration: none;
+}
+li{
+   list-style-type: none;
+}
+button{
+    border:none;
+
 }
