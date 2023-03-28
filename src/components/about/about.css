@@ -79,3 +79,21 @@
  .flex{
    display: flex;
  }
+ @media screen and(max-width:850px) {
+   .grid{
+      grid-template-columns: repeat(2,1fr);
+   }
+   .aboutHome{
+      margin-top: 80%;
+   }
+   .aboutHome .container{
+      flex-direction: column-reverse;
+
+   }
+   .aboutHome .row{
+      width: 100%;
+   }
+   .awrapper{
+      height:50vh
+   }
+ }
