@@ -112,7 +112,6 @@ button:hover{
   display: grid; 
   grid-template-columns: repeat(4,1fr); 
   grid-gap: 30px;  
-    
 }
 .flex{
   display: flex;
@@ -121,7 +120,11 @@ button:hover{
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-gap: 30px;  
-    
+}
+.grid3{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 30px;  
 }
 .outline-btn{
   margin : 0;
@@ -133,7 +136,18 @@ button:hover{
 .outline-btn:hover{
   background-color: #1eb2a6;
   color: #fff;
-
+}
+.grid3{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-gap: 10px;  
+}
+.padding{
+  padding:80px 0;
+}
+.shadow{
+  box-shadow: 0 5px 25px -2px rgba(0 0 0 /6%);
+  background-color: #fff;
 }
 @media screen and(max-width:850px) {
   .grid{
