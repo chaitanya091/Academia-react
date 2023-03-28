@@ -67,7 +67,7 @@
    font-size: 20px;
    font-weight: 500px;
  }
- .margin{
+ /* .margin{
    margin-top: 40.3%;
  }
  .grid{
@@ -78,7 +78,7 @@
  }
  .flex{
    display: flex;
- }
+ } */
  @media screen and(max-width:850px) {
    .grid{
       grid-template-columns: repeat(2,1fr);

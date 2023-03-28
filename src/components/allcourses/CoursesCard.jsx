@@ -5,7 +5,7 @@ const CoursesCard = () => {
   return (
     <>
      
-        <section className="courseCard">
+        <section className="coursesCard">
              
             <div className="container grid2">
                 {coursesCard.map((val)=>{
@@ -41,13 +41,18 @@ const CoursesCard = () => {
                                                 </div>
                                             </div>
                                             <span>
-                                                {details.totalTime.Time}
+                                                {details.totalTime}
                                             </span>
                                             </>
                                         ))}
                                     </div>
                             </div>
                          </div>
+                         <div className="price">
+                            <h3>{val.priceAll} / {val.pricePer}</h3>
+
+                         </div>
+                         <button className='outline-btn'>ENROLL NOW !</button>
                       </div>
                     )
                 })}
