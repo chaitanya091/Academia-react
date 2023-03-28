@@ -108,4 +108,7 @@
     position:absolute;
     top:0;
     left: 0;
-}
+ }
+ .online .box:hover h1{
+     color: #fff;
+ }

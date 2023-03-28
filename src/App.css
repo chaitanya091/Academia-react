@@ -150,6 +150,8 @@ button:hover{
   background-color: #fff;
 }
 @media screen and(max-width:850px) {
+  .grid3,
+  .grid2,
   .grid{
     grid-template-columns: repeat(2,1fr);
   }
@@ -157,5 +159,8 @@ button:hover{
     background-position: center;
     padding-top:50% ;
     height: 80vh;
+  }
+  .margin{
+    margin-top:  85%;
   }
 }
