@@ -88,7 +88,11 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-       
+      <div className='legal'>
+        <p>
+         © Copyright 2023 Academia
+        </p>
+      </div>
     </>
   )
 }
