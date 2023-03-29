@@ -7,6 +7,7 @@ import About from './components/about/About'
 import CourseHome from './components/allcourses/CourseHome'
 import Team from './components/team/Team'
 import Price from './components/princing/Price'
+import Blog from './components/blog/Blog'
 const App  = () => {
   return (
     <>
@@ -18,6 +19,7 @@ const App  = () => {
           <Route path="/courses"  element={<CourseHome/>} />
           <Route path="/team"  element={<Team/>} />
           <Route path="/pricing"  element={<Price/>} />
+          <Route path="/journal"  element={<Blog/>} />
         </Routes>
       </Router>
     </>
