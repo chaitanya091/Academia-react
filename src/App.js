@@ -9,6 +9,8 @@ import Team from './components/team/Team'
 import Price from './components/princing/Price'
 import Blog from './components/blog/Blog'
 import Contact from './components/contact/Contact'
+import Footer from './components/common/footer/Footer'
+ 
 const App  = () => {
   return (
     <>
@@ -23,6 +25,7 @@ const App  = () => {
           <Route path="/journal"  element={<Blog/>} />
           <Route path="/contact"  element={<Contact/>} />
         </Routes>
+         <Footer/>
       </Router>
     </>
   )
