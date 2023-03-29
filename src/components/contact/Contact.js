@@ -19,7 +19,7 @@ const Contact = () => {
                             <div className='box'>
                                 <h4>Address:</h4>
                                 <p>Survey No. 27, Near, Trimurti Chowk, 
-                                    Bharati Vidyapeeth Campus, 
+                                    Pune Institute of Computer Technology, 
                                     Dhankawadi, Pune, 
                                     Maharashtra 411043</p>
                             </div>

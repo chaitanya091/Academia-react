@@ -88,11 +88,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <div className='legal'>
-        <p>
-          Copyright ©2022 All rights reserved | This template is made with <i className='fa fa-heart'></i> by GorkhCoder
-        </p>
-      </div>
+       
     </>
   )
 }
