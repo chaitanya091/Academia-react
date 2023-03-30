@@ -8,7 +8,7 @@ const Hero = () => {
             <div className='container'>
                <div className="row">
                   <Title subtitle='WELCOME TO ACADEMIA' title='Best Online Education'/>
-                  <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus omnis cupiditate in quasi velit perspiciatis voluptatem dolor autem pariatur. Ipsam ipsa voluptatem animi quas, blanditiis fugiat sed suscipit distinctio sapiente.</p>
+                  <p>  “Consider staff who are physically challenged, or who are economically disadvantaged and would struggle to afford travel costs, or a remote worker who would otherwise miss out on classroom training. Online training is really something that potentially helps to level the playing field.” – Valeria Lo Iacono</p>
                <div className="button">
                   <button className='primart-btn'>
                      GET STARTED NOW <i className='fa fa-long-arrow-alt-right'></i>
